@@ -1,4 +1,133 @@
-.CV-header {
+* {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+	background-color: rgba(46, 46, 46, 0.3);
+}
+
+.header-container {
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-content: center;
+}
+
+.photo {
+	display: flex;
+	max-width: 320px;
+	max-height: 320px;
+}
+
+
+.name-h1 {
+	display: flex;
+	color: rgba(39, 22, 22, 0.603);
+	justify-content: center;
+}
+
+nav {
+	background-color: rgba(46, 46, 46, 0.1);
+	position: relative;
+	top: -16px;
+	color: brown;
+}
+
+.nav-links {
+	display: flex;
+	padding: 5px, 15px;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.contact-section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-content: center;
+}
+
+.about-me-section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-content: center;
+	margin: 30px;
+}
+
+.skills-section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-content: center;
+}
+
+.code-section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-content: center;
+	margin: 30px;
+}
+
+pre {
+	display: inline-flex;
+	margin: 20px;
+}
+
+.experience-section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-content: center;
+	margin: 30px;
+}
+
+.education-section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-content: center;
+	margin: 30px;
+}
+
+.english-section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-content: center;
+	margin: 30px;
+}
+
+footer {
 	background-color: grey;
-	color: red;
+}
+
+.footer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-content: center;
+
+}
+
+.RS-School-logo {
+	display: inline-block;
+	margin: 10px;
+}
+
+h4 {
+	display: flex;
+	justify-content: center;
 }
