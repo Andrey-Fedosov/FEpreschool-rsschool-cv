@@ -1,38 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link href=style.css rel="stylesheet">
-	<title>RSSchool CV Task - part 1</title>
+	<link href="style.css" rel="stylesheet">
+	<title>cv</title>
 </head>
-
 <body>
-  	<header>
-		  <h1 class="CV-header"> Andrey Fedosov - CV</h1>
-	  </header>
-	  <nav class="cv-nav">
-		  <div class="cv-nav-item">
-			  <a href="#about">About</a>
-			</div>
-			<div class="cv-nav-item">Skills</div>
-			<div class="cv-nav-item">Code</div>
-			<div class="cv-nav-item">Education</div>
-			<div class="cv-nav-item">Experience</div>
-			<div class="cv-nav-item">English</div>
-			<div class="cv-nav-item">
-				<a href="#contacts">Contacts</a>
-			</div>
-	  </nav>
+	<header>
+    <div class="header-container">
+			<img class="photo" src="img/a-foto.jpg" alt="Andrey Fedosov photo">
+			<h1 class="name-h1">Andrey Fedosov</h1>
+    </div>
+  </header>
+	<nav >
+    <ul class="nav-links">
+			<li><a href="#contacts">Contacts</a></li>
+			<li><a href="#about-me" >About me</a></li>
+			<li><a href="#skills">Skills</a></li>
+			<li><a href="#code-ex">Code</a></li>
+			<li><a href="#experience">Experience</a></li>
+			<li><a href="#education">Education</a></li>
+			<li><a href="#english">Language</a></li>
+		</ul>
+	</nav>
 		<main>
-      
-			<h3 id="contacts">Contacts</h3>
-			
-
-		</main>
-
+			<section class="contact-section"> 
+				<h2 id="contacts"> Contacts</h2>
+        <ul>
+					<li>Location: Mogilev, Belarus</li>
+					<li>Phone: + 375 29 198 99 59</li>
+					<li>Email: andrefedosov@gmail.com</li>
+					<li>Git-Hub: <a href="https://github.com/Andrey-Fedosov" title="Andreys Git-Hub">Andrey-Fedosov</a></li>
+				</ul>
+			</section>
+			<section class="about-me-section">
+        <h2 id="about-me">About Me</h2>
+				<p class="about-me-p">I want to become a frontend developer and find job as a JS-FE developer.
+					For this i've got basic knowledge of frontend (HTML, CSS, JS, git), preintermediate English level and giant
+					desire to achieve my goal through the  regular  learning and code practise.					
+				</p>
+			</section>
+			<section class="skills-section">
+				<h2 id="skills">Skills</h2>
+        <ul>
+					<li>HTML</li>
+					<li>CSS</li>
+					<li>JavaScript</li>
+					<li>Git</li>
+				</ul>
+			</section>
+			<section class="code-section">
+				<h2 id="code-ex">Code</h2>
+				<p class="code-section">The code example was taken from <a href="https://www.codewars.com/kata/525f50e3b73515a6db000b83" title="convert into phone number kata">codewars kata</a></p>
+			  <pre>
+					<code>
+	function createPhoneNumber(numbers) {
+	  let numToString = numbers.join(''),
+	      prefixPart = numToString.slice(0, 3),
+	      firstPartNum = numToString.slice(3, 6),
+	      secondPartNum = numToString.slice(6, numToString.length);
+	 return `(${prefixPart}) ${firstPartNum}-${secondPartNum}`;
+}</code>
+				</pre>
+			</section>
+			<section class="experience-section">
+				<h2 id="experience">Experience</h2>
+				<p>LLC "Belsotbit" manager of sales - 2019</p>
+			</section>
+      <section class="education-section">
+				<h2 id="education">Education</h2>
+				<ul>
+					<li>University: The Belarusian-Russian University, faculty of economics</li>
+					<li>Courses:
+						<ul>
+						  <li><a href="https://www.udemy.com/course/javascript_full/">Udemy javascript full</a></li>
+							<li><a href="https://www.codecademy.com/learn/learn-html">codecademy.com - learn html</a></li>
+					  </ul>
+				</li>
+				</ul>
+			</section>
+			<section class="english-section">
+				<h2 class="english-section" id="english">English</h2>
+				<p>Preintermediate (A2) acording to the result of the Epam Training center english test.</p>
+			</section>		
+	</main>
+	<footer>
+    <div class="footer">
+		<div>
+			<a href="https://github.com/Andrey-Fedosov" title="Andreys Git-Hub">Andrey-Fedosov</a>
+		</div>
+		<div class="RS-School-logo"> 
+			<a href="https://rs.school/js-stage0/" title="js-stage0 course page"><img src="img/rs_school_js.svg" alt="RSSchool logo" ></a>
+		</div>
+		<h4>2022</h4>
+	</div>
+	</footer>
 </body>
-
 </html>
