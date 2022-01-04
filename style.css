@@ -1,0 +1,157 @@
+* {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+	color: #000;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #000;
+}
+
+header {
+	background: linear-gradient(white, grey);
+}
+
+.header-container {
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-content: center;
+}
+
+.photo {
+
+	/* display: flex; */
+	max-width: 240px;
+}
+
+
+.name-h1 {
+	display: flex;
+	color: rgba(39, 22, 22, 0.6);
+	justify-content: center;
+}
+
+.h2-header {
+	display: flex;
+	justify-content: center;
+}
+
+nav {
+	background-color: rgba(46, 46, 46, 0.1);
+	position: relative;
+	top: -16px;
+	color: brown;
+}
+
+.nav-links {
+	display: flex;
+	padding: 10px;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	list-style-type: none;
+}
+
+.contact-section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-content: center;
+}
+
+.about-me-section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-content: center;
+	margin: 30px;
+}
+
+.skills-section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-content: center;
+}
+
+.code-section {
+
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-content: center;
+	margin: 30px;
+}
+
+.code-container {
+	border-left: 1px solid brown;
+	display: flex;
+	flex-direction: row;
+	justify-content: left;
+	overflow: none;
+}
+
+code {
+	font-family: 'Courier New', Courier, monospace;
+	text-align: left;
+}
+
+.experience-section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-content: center;
+	margin: 30px;
+}
+
+.education-section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-content: center;
+	margin: 30px;
+}
+
+.english-section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-content: center;
+	margin: 30px;
+}
+
+footer {
+	background-color: rgb(211, 198, 198);
+}
+
+.footer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-content: center;
+}
+
+.RS-School-logo {
+	display: inline-block;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#year {
+	text-align: center;
+	padding-top: 10px;
+}

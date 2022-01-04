@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="style.css" rel="stylesheet">
+	<title>cv</title>
+</head>
+<body>
+	<header>
+    <div class="header-container">
+			<img class="photo" src="img/a-foto.jpg" alt="Andrey Fedosov photo">
+			<h1 class="name-h1">Andrey Fedosov</h1>
+    </div>
+  </header>
+	<nav >
+    <ul class="nav-links">
+			<li><a href="#contacts">Contacts</a></li>
+			<li><a href="#about-me" >About me</a></li>
+			<li><a href="#skills">Skills</a></li>
+			<li><a href="#code-ex">Code</a></li>
+			<li><a href="#experience">Experience</a></li>
+			<li><a href="#education">Education</a></li>
+			<li><a href="#english">Language</a></li>
+		</ul>
+	</nav>
+		<main>
+			<section class="contact-section"> 
+				<h2 class="h2-header" id="contacts"> Contacts</h2>
+        <ul >
+					<li>Location: Mogilev, Belarus</li>
+					<li>Phone: + 375 29 198 99 59</li>
+					<li>Email: andrefedosov@gmail.com</li>
+					<li>Git-Hub: <a href="https://github.com/Andrey-Fedosov" title="Andreys Git-Hub">Andrey-Fedosov</a></li>
+				</ul>
+			</section>
+			<section  class="about-me-section">
+        <h2 id="about-me" class="h2-header">About Me</h2>
+				<p class="about-me-p">I want to become a frontend developer and find job as a JS-FE developer.
+					For this i've got basic knowledge of frontend (HTML, CSS, JS, git), preintermediate English level and giant
+					desire to achieve my goal through the  regular  learning and code practise.					
+				</p>
+			</section>
+			<section class="skills-section">
+				<h2 id="skills" class="h2-header">Skills</h2>
+        <ul>
+					<li>HTML</li>
+					<li>CSS</li>
+					<li>JavaScript</li>
+					<li>Git</li>
+				</ul>
+			</section>
+			<section>
+				<h2 id="code-ex" class="h2-header">Code</h2>
+				<p class="code-section">The code example was taken from
+				<span class="codewars-link"><a href="https://www.codewars.com/kata/525f50e3b73515a6db000b83" title="convert into phone number kata">codewars kata</a></span></p>
+			  <div class="code-container">
+				<pre>
+					<code>
+function createPhoneNumber(numbers) {
+  let numToString = numbers.join(''),
+      prefixPart = numToString.slice(0, 3),
+      firstPartNum = numToString.slice(3, 6),
+      secondPartNum = numToString.slice(6, numToString.length);
+  return `(${prefixPart}) ${firstPartNum}-${secondPartNum}`;
+}</code></pre>
+			</div>
+			</section>
+			<section class="experience-section">
+				<h2 id="experience" class="h2-header">Experience</h2>
+				<p>LLC "Belsotbit" manager of sales - 2019</p>
+			</section>
+      <section class="education-section">
+				<h2 id="education" class="h2-header">Education</h2>
+				<ul>
+					<li>University: The Belarusian-Russian University, faculty of economics</li>
+					<li>Courses:
+						<ul>
+						  <li><a href="https://www.udemy.com/course/javascript_full/">Udemy javascript full</a></li>
+							<li><a href="https://www.codecademy.com/learn/learn-html">codecademy.com - learn html</a></li>
+					  </ul>
+				</li>
+				</ul>
+			</section>
+			<section class="english-section">
+				<h2 class="english-section" id="english">English</h2>
+				<p>Preintermediate (A2) acording to the result of the Epam Training center english test.</p>
+			</section>		
+	</main>
+	<footer>
+    <div class="footer">
+		<div>
+			<a href="https://github.com/Andrey-Fedosov" title="Andreys Git-Hub">Andrey-Fedosov</a>
+		</div>
+		<div class="RS-School-logo"> 
+			<a href="https://rs.school/js-stage0/" title="js-stage0 course page"><img src="img/rs_school_js.svg" alt="RSSchool logo" ></a>
+		</div>
+		<p id="year">2022</p>
+	</div>
+	</footer>
+</body>
+</html>
