@@ -2,8 +2,17 @@
 	font-family: Arial, Helvetica, sans-serif;
 }
 
+a {
+	color: #000;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #000;
+}
+
 header {
-	background-color: rgba(46, 46, 46, 0.3);
+	background: linear-gradient(white, grey);
 }
 
 .header-container {
@@ -16,15 +25,20 @@ header {
 }
 
 .photo {
-	display: flex;
-	max-width: 320px;
-	max-height: 320px;
+
+	/* display: flex; */
+	max-width: 240px;
 }
 
 
 .name-h1 {
 	display: flex;
 	color: rgba(39, 22, 22, 0.6);
+	justify-content: center;
+}
+
+.h2-header {
+	display: flex;
 	justify-content: center;
 }
 
@@ -37,10 +51,11 @@ nav {
 
 .nav-links {
 	display: flex;
-	padding: 5px, 15px;
+	padding: 10px;
 	flex-direction: row;
-	justify-content: space-between;
+	justify-content: space-around;
 	flex-wrap: wrap;
+	list-style-type: none;
 }
 
 .contact-section {
@@ -69,17 +84,26 @@ nav {
 }
 
 .code-section {
+
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	justify-content: center;
 	flex-wrap: wrap;
 	align-content: center;
 	margin: 30px;
 }
 
-pre {
-	display: inline-flex;
-	margin: 20px;
+.code-container {
+	border-left: 1px solid brown;
+	display: flex;
+	flex-direction: row;
+	justify-content: left;
+	overflow: none;
+}
+
+code {
+	font-family: 'Courier New', Courier, monospace;
+	text-align: left;
 }
 
 .experience-section {
@@ -110,8 +134,7 @@ pre {
 }
 
 footer {
-	background-color: grey;
-	<<<<<<< HEAD
+	background-color: rgb(211, 198, 198);
 }
 
 .footer {
@@ -120,15 +143,15 @@ footer {
 	justify-content: center;
 	flex-wrap: wrap;
 	align-content: center;
-
 }
 
 .RS-School-logo {
 	display: inline-block;
-	margin: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
-h4 {
-	display: flex;
-	justify-content: center;
+#year {
+	text-align: center;
+	padding-top: 10px;
 }
